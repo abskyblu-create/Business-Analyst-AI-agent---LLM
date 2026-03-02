@@ -158,7 +158,8 @@ export default function Page() {
              Access Key (optional  private mode only)
              </label>
              <input
-               className="w-full border rounded-lg p-3"
+               type="password"
+	       className="w-full border rounded-lg p-3"
                value={accessKey}
                onChange={(e) => setAccessKey(e.target.value)}
                placeholder="Paste private access key here"
